@@ -1,0 +1,29 @@
+nav {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 250px;
+}
+
+nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ol > li > ol {
+    padding-left: 20px;
+}
+
+nav a {
+    opacity: 0.7;
+    color: #667;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    color: #000;
+    opacity: 1;
+}
